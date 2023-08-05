@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chat.css">
 </head>
 
 <body>
@@ -40,7 +41,7 @@
               </ul>
             <form class="d-flex justify-content-center" role="search">
               <button type="button" class="btn btn__sign__in" data-bs-toggle="modal" data-bs-target="#sign-in-modal">Sign In</button>
-              <button class="btn btn__try__free" id="nav__try-free__btn">Try it Free</button>
+              <button type="button" class="btn btn__try__free" id="nav__try-free__btn" data-bs-toggle="modal" data-bs-target="#sign-up-modal">Try it Free</button>
             </form>
           </div>
         </div>
@@ -58,11 +59,11 @@
                 </div>
                 <p>Subscription billing, powered powered with revenue retention tools and a seamless customer experience - without the technical hurdles</p>
                 <div class="landing__pg__btn__grp">
-                    <button>Sign up free<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#sign-up-modal">Sign up free<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15.6652 8.80884C16.1116 8.36246 16.1116 7.63754 15.6652 7.19116L8.80884 0.334784C8.36246 -0.111595 7.63754 -0.111595 7.19116 0.334784C6.74478 0.781163 6.74478 1.50608 7.19116 1.95246L13.2405 8.00179L7.19473 14.0511C6.74835 14.4975 6.74835 15.2224 7.19473 15.6688C7.64111 16.1152 8.36603 16.1152 8.81241 15.6688L15.6688 8.81241L15.6652 8.80884ZM1.95246 15.6652L8.80884 8.80884C9.25522 8.36246 9.25522 7.63754 8.80884 7.19116L1.95246 0.334784C1.50608 -0.111595 0.781163 -0.111595 0.334784 0.334784C-0.111595 0.781163 -0.111595 1.50608 0.334784 1.95246L6.38411 8.00179L0.338355 14.0511C-0.108024 14.4975 -0.108024 15.2224 0.338355 15.6688C0.784734 16.1152 1.50965 16.1152 1.95603 15.6688L1.95246 15.6652Z" fill="#0D6EFD"/>
                         </svg></button>
                     
-                    <button>Chat with us<svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#chat-modal">Chat with us<svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M4.025 12.1714L3.63929 13.2036L3.38929 13.8643L5.44643 13.2464L5.94286 13.0964L6.43929 13.2464C7.27143 13.5 8.18214 13.6393 9.14286 13.6393C13.5964 13.6393 16.5714 10.7643 16.5714 7.925C16.5714 5.08571 13.5964 2.21071 9.14286 2.21071C4.68929 2.21071 1.71429 5.08929 1.71429 7.92857C1.71429 9.18214 2.25 10.3893 3.24643 11.3893L4.025 12.1714ZM2.63214 15.8821L0.571429 16.5L1.32857 14.4821L2.03571 12.6C0.760714 11.325 0 9.7 0 7.92857C0 3.825 4.09286 0.5 9.14286 0.5C14.1929 0.5 18.2857 3.825 18.2857 7.92857C18.2857 12.0321 14.1929 15.3571 9.14286 15.3571C8.01786 15.3571 6.93929 15.1929 5.94286 14.8893L2.63571 15.8821H2.63214Z" fill="white"/>
                         </svg></button>
                 </div>
@@ -77,8 +78,8 @@
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M4 2C1.79375 2 0 3.79375 0 6V26C0 28.2062 1.79375 30 4 30H28C30.2062 30 32 28.2062 32 26V6C32 3.79375 30.2062 2 28 2H4ZM28 6V26H4V6H28Z" fill="white"/>
                             <path opacity="0.8" d="M4 10V14H8V26H12V14H28V10H4Z" fill="#444444"/>
-                            </svg>
-                            <p>Client Dashboard</p>
+                        </svg>
+                        <p>Client Dashboard</p>
                     </div>
                     <div class="lp__icons icon2">
                         <svg width="28" height="32" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -213,7 +214,7 @@
                                     <li>Accept credit & debit cards, PayPal, ACH, Apple Pay and more with the swipe of a finger</li>
                                     <li>Select from a variety of different checkout options and experiences</li>
                                 </ul>
-                                <button>Learn more<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <button><a href="how_it_works.html" style="text-decoration: none;color:none;">Learn more</a><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M15.6652 8.80884C16.1116 8.36246 16.1116 7.63754 15.6652 7.19116L8.80884 0.334784C8.36246 -0.111595 7.63754 -0.111595 7.19116 0.334784C6.74478 0.781163 6.74478 1.50608 7.19116 1.95246L13.2405 8.00179L7.19473 14.0511C6.74835 14.4975 6.74835 15.2224 7.19473 15.6688C7.64111 16.1152 8.36603 16.1152 8.81241 15.6688L15.6688 8.81241L15.6652 8.80884ZM1.95246 15.6652L8.80884 8.80884C9.25522 8.36246 9.25522 7.63754 8.80884 7.19116L1.95246 0.334784C1.50608 -0.111595 0.781163 -0.111595 0.334784 0.334784C-0.111595 0.781163 -0.111595 1.50608 0.334784 1.95246L6.38411 8.00179L0.338355 14.0511C-0.108024 14.4975 -0.108024 15.2224 0.338355 15.6688C0.784734 16.1152 1.50965 16.1152 1.95603 15.6688L1.95246 15.6652Z" fill="#0D6EFD"/>
                                     </svg></button>
                             </div>
@@ -246,6 +247,29 @@
         $("#sign-in-modal").modal('show');
     }
 </script>-->
+
+<!-- Chat Modal -->
+
+    <div class="modal fade" id="chat-modal" tabindex="-1" aria-labelledby="chat-modal" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body-fluid">
+                    <div class="container-fluid">
+                        <div class="row d-flex mb-5">
+                            <form action="/action_page.php" class="form-container">
+                            <h1>Chat With Us</h1>
+                            <textarea placeholder="Type message.." name="msg" required></textarea>
+                            <button type="button" class="chat__send__btn">Send<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.6652 8.80884C16.1116 8.36246 16.1116 7.63754 15.6652 7.19116L8.80884 0.334784C8.36246 -0.111595 7.63754 -0.111595 7.19116 0.334784C6.74478 0.781163 6.74478 1.50608 7.19116 1.95246L13.2405 8.00179L7.19473 14.0511C6.74835 14.4975 6.74835 15.2224 7.19473 15.6688C7.64111 16.1152 8.36603 16.1152 8.81241 15.6688L15.6688 8.81241L15.6652 8.80884ZM1.95246 15.6652L8.80884 8.80884C9.25522 8.36246 9.25522 7.63754 8.80884 7.19116L1.95246 0.334784C1.50608 -0.111595 0.781163 -0.111595 0.334784 0.334784C-0.111595 0.781163 -0.111595 1.50608 0.334784 1.95246L6.38411 8.00179L0.338355 14.0511C-0.108024 14.4975 -0.108024 15.2224 0.338355 15.6688C0.784734 16.1152 1.50965 16.1152 1.95603 15.6688L1.95246 15.6652Z" fill="#0D6EFD"/>
+                                </svg></button>
+                                <button type="button" class="chat__close__btn" data-bs-toggle="modal" data-bs-target="#chat-modal">Close</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <div class="modal fade" id="sign-in-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -287,6 +311,51 @@
                     <span class="soycle"><img src="./images/linkedin.svg" class="img-fluid" alt="linkedin"></span>
                   </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="sign-up-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body-fluid">
+          <div class="container-fluid">
+            <div class="row d-flex py-5">
+              <div id="sign-up-form" class="col d-flex flex-column justify-content-between align-items-center">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <h2 class="d-flex pt-5 mb-4 justify-content-center fw-bold" >Sign Up</h2>
+                <div id="sign-in-username">
+                  <input type="text" class="form-control d-flex justify-content-center mb-3">
+                  <img src="./images/username.svg" alt="text">
+                </div>
+                <div id="sign-in-email">
+                  <input type="email" class="form-control d-flex justify-content-center mb-3">
+                  <img src="./images/email.svg" alt="email">
+                </div>
+                <div id="sign-in-password">
+                  <input type="password"class="form-control d-flex justify-content-center" aria-describedby="passwordHelpBlock">
+                  <img src="./images/password.svg" alt="password">
+                </div>
+                <div id="sign-in-sign-in-button" class="my-3">
+                  <button type="button" class="btn btn-primary fw-bold d-flex px-5 justify-content-center" data-bs-dismiss="modal" aria-label="Close">Sign up</button>
+                </div>
+                <div>
+                  <p>Or sign in with social media</p>
+                </div>
+                <div class="d-flex">
+                  <span class="soycle"><img src="./images/facebook.svg" class="img-fluid" alt="facebook"></span>
+                  <span class="soycle"><img src="./images/twitter.svg" class="img-fluid" alt="twitter"></span>
+                  <span class="soycle"><img src="./images/google.svg" class="img-fluid" alt="gmail"></span>
+                  <span class="soycle"><img src="./images/linkedin.svg" class="img-fluid" alt="linkedin"></span>
+                </div>
+            </div>
+              <div id="sign-up-graphic" class="col p-5 d-flex flex-column justify-content-around">
+                  <img id="girl-with-ipad"src="./images/sign-up-graphic.png" class="img-fluid rounded-top" alt="girl-stonks">
+              </div>
+              
             </div>
           </div>
         </div>
