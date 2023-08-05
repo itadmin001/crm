@@ -333,9 +333,9 @@ p.features{
 }
 
 .soycle{
-    width: 2.5rem;
+    width: 48px;
     position: relative;
-    height: 2.5rem;
+    height: 48px;
     border: 1px solid #adb5bd;
     border-radius: 99px;
     padding: .5rem;
@@ -353,8 +353,26 @@ p.features{
 
 .soycle img{
     position: absolute;
-    top:25%;
-    left:25%;
+    top:15px;
+    left:18px;
+}
+
+.soycle:nth-child(2) img{
+    position: absolute;
+    top:15px;
+    left:14px;
+}
+
+.soycle:nth-child(3) img{
+    position: absolute;
+    top:15px;
+    left:14px;
+}
+
+.soycle:nth-child(4) img{
+    position: absolute;
+    top:13px;
+    left:15px;
 }
 
 #sign-in-email, 

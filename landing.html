@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg shadow">
         <div class="container-fluid">
             <div class="logo__container">
-                <a class="navbar-brand" href="#"><img src="/images/logo_sliding.png " alt=""></a>
+                <a class="navbar-brand" href="#"><img src="images/logo_sliding.png " alt=""></a>
             </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,8 +39,8 @@
                   </li>
               </ul>
             <form class="d-flex justify-content-center" role="search">
-              <button class="btn btn__sign__in">Sign In</button>
-              <button class="btn btn__try__free">Try it Free</button>
+              <button type="button" class="btn btn__sign__in" data-bs-toggle="modal" data-bs-target="#sign-in-modal">Sign In</button>
+              <button class="btn btn__try__free" id="nav__try-free__btn">Try it Free</button>
             </form>
           </div>
         </div>
@@ -218,7 +218,7 @@
                                     </svg></button>
                             </div>
                             
-                            <img src="/images/credit-card.png" alt="">
+                            <img src="images/credit-card.png" alt="">
                         </div>
                     </div>
                 </div><!-- mid content container -->
@@ -237,6 +237,62 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+  <!-- Sign In Modal-->
+
+ <!--<script type="text/javascript">
+    var sign_in = document.getElementById("nav__sign-in__btn")
+    sign_in.addEventListener("click",OpenBootstrapPopup)
+    function OpenBootstrapPopup() {
+        $("#sign-in-modal").modal('show');
+    }
+</script>-->
+
+<div class="modal fade" id="sign-in-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body-fluid">
+          <div class="container-fluid">
+            <div class="row d-flex mb-5">
+              <div id="sign-up-graphic" class="col bg-primary text-white p-5 d-flex flex-column justify-content-around">
+                  <h5 class="d-flex justify-content-center fw-bold mb-3">Don't have an account yet?</h2>
+                  <h5 class="d-flex justify-content-center fw-bold mb-0">What are you waiting for?!</h2>
+                  <button id="sign-in-sign-up" type="button" class="btn btn-primary mx-auto fw-bold my-5" data-bs-target="sign-up-modal">SIGN UP</button>
+                  <img id="girl-stonks"src="./images/sign-in-graphic.png" class="img-fluid rounded-top" alt="girl-stonks">
+              </div>
+              <div id="sign-in-form" class="col d-flex flex-column justify-content-between align-items-center">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <h2 class="d-flex pt-5 justify-content-center fw-bold">Sign In</h2>
+                  <div id="sign-in-username">
+                    <input type="text" class="form-control d-flex justify-content-center mb-1">
+                    <img src="./images/username.svg" alt="text">
+                  </div>
+                  <div id="sign-in-email">
+                    <input type="email" class="form-control d-flex justify-content-center mb-1">
+                    <img src="./images/email.svg" alt="email">
+                  </div>
+                  <div id="sign-in-password">
+                    <input type="password"class="form-control d-flex justify-content-center" aria-describedby="passwordHelpBlock">
+                    <img src="./images/password.svg" alt="password">
+                  </div>
+                  <div id="sign-in-sign-in-button" class="my-3">
+                    <button type="button" class="btn btn-primary fw-bold d-flex px-5 justify-content-center" data-bs-dismiss="modal">Sign in</button>
+                  </div>
+                  <div>
+                    <p>Or sign in with social media</p>
+                  </div>
+                  <div class="d-flex">
+                    <span class="soycle"><img src="./images/facebook.svg" class="img-fluid" alt="facebook"></span>
+                    <span class="soycle"><img src="./images/twitter.svg" class="img-fluid" alt="twitter"></span>
+                    <span class="soycle"><img src="./images/google.svg" class="img-fluid" alt="gmail"></span>
+                    <span class="soycle"><img src="./images/linkedin.svg" class="img-fluid" alt="linkedin"></span>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
