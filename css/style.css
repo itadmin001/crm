@@ -24,6 +24,10 @@
 
 }
 
+#sign-up-graphic{
+    border-bottom-right-radius: 1rem;
+}
+
 .soycle img{
     position: absolute;
     top:25%;
