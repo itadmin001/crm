@@ -5,12 +5,17 @@ body p{
 
 .container.main{
     margin:75px auto;
+    justify-content: center;
+    max-width: 1100px;
 }
 
 .row.top{
     padding-bottom: 60px;
+    margin:auto;
     margin-bottom: 90px;
+    justify-content: center;
     position: relative;
+    
 }
 
 .row.top:before{
@@ -19,7 +24,7 @@ body p{
     width:70%;
     border-bottom:2px solid #d9d9d9;
     bottom:0;
-    left:95px
+    left:195px
 }
 
 .nav-link{
@@ -29,7 +34,8 @@ body p{
 
 .logo__container{
     height: 40px;
-    overflow:hidden
+    overflow:hidden;
+    margin-left:50px
 }
 
 .logo__container img{
@@ -59,6 +65,8 @@ body p{
     margin-right:30px;
     margin-left:10px;
 }
+
+/* =========  LANDING PAGE LEFT COLUMN ========= */
 
 .title h1{
     max-width:260px;
@@ -132,10 +140,13 @@ p.features{
     font-size:13px;
 }
 
+ /* ========= 3X3 GRID LANDING PAGE TOP RIGHT ========= */
+
 .lp__icons__container{
     display:grid;
     grid-template-columns: 140px 140px 140px;
     gap:10px;
+    justify-content: center;
 }
 
 .lp__icons{
@@ -209,6 +220,8 @@ p.features{
     background-color: #0d6efd;
 }
 
+/* =========  LANDING PAGE MIDDLE CONENT ========= */
+
 .mid__content__container p{
     max-width:465px;
     margin:auto;
@@ -240,7 +253,73 @@ p.features{
     margin-left:65px;
 }
 
-/*    =======  */
+.mid__grid__item:nth-child(3) svg{
+    margin-top:62px;
+    margin-left:65px;
+}
+
+.mid__grid__item p{
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.mid__content__card{
+    display:flex;
+    width:800px;
+    height:420px;
+    border-radius: 12px;
+    margin:auto;
+    margin-top:80px;
+    background-color: #0d6efd;
+    box-shadow: 3px 4px 15px 14px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.mid__content__card img{
+    display:flex;
+    max-height: 420px;
+    border-radius:12px 0 0 12px;
+}
+
+.mid__card__content{
+    position: absolute;
+    right:10px;
+    top:40px;
+    max-width: 410px;
+    text-align: left;
+    color:#fff;
+}
+
+.mid__card__content p{
+    margin-top:25px;
+}
+
+.mid__card__content ul{
+    font-size: 13px;
+    margin-top:25px;
+}
+
+.mid__card__content button{
+    width:199px;
+    height:48px;
+    margin-right:20px;
+    border-radius:8px;
+    padding-right:20px;
+    position: relative;
+    background-color: #fff;
+    border:none;
+    color:#0d6efd;
+    font-weight: 700;
+    font-size:18px;
+}
+
+.mid__card__content svg{
+    position: absolute;
+    top:17px;
+    right:30px;
+}
+
+/*    =========  SIGN IN / SIGN UP MODALS =========*/
 
 #girl-stonks{
     max-width: 70%;
