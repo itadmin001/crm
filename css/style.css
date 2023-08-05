@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body p{
     font-size:15px;
 }
@@ -237,8 +237,11 @@ p.features{
 
 .mid__grid__item:first-child svg{
     margin-top:55px;
-    margin-left:65px
-=======
+    margin-left:65px;
+}
+
+/*    =======  */
+
 #girl-stonks{
     max-width: 70%;
     margin: auto;
@@ -293,5 +296,4 @@ p.features{
     position: absolute;
     top: .75rem;
     left: .5rem;
->>>>>>> 91c30db3ba7f45114c27b3af0e99e194185630c9
 }
