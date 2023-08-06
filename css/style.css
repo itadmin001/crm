@@ -644,10 +644,10 @@ li{
     margin: .75rem;
 }
 
-#girl-with-ipad{
+/*#girl-with-ipad{
     max-width: 400px;
 
-}
+}*/
 
 #sign-up-graphic{
     border-bottom-right-radius: 1rem;
@@ -704,10 +704,14 @@ li{
 
 .modal-content{
     flex-direction: row !important;
-    width:1200px;
+    width:100%;
     align-items: center;
     justify-content: center;
     padding-bottom:30px;
+}
+
+.modal-dialog{
+    width:50vw;
 }
 
 #please_clap{
