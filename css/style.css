@@ -385,7 +385,6 @@ input[type=submit],input[type=button],input[type=reset],button{
 
 .btn:hover,.btn:focus{  
     cursor:pointer; 
-    color:#FFF;
 }
 input[type=radio]{
     margin:0px;
@@ -561,10 +560,9 @@ ul{
 .view-more{
     width:199px;
     height:48px;
-    margin-right:20px;
     margin-top:30px !important;
+    padding-left:30px;
     border-radius:10px;
-    padding-right:20px;
     text-decoration: none;
     background-color:#0d6efd !important;
     color:#fff;
@@ -674,4 +672,8 @@ ul{
     position: absolute;
     top: .75rem;
     left: .5rem;
+}
+
+.my-3 button{
+    padding-top:10px;
 }
