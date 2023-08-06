@@ -704,8 +704,9 @@ li{
 
 .modal-content{
     flex-direction: row !important;
-    width:900px;
+    width:1200px;
     align-items: center;
     justify-content: center;
     padding-bottom:30px;
+    width:100%;
 }
