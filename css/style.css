@@ -554,10 +554,24 @@ ul{
 	margin:10px 20px;
 	display:block;
 	text-align:center;
-	background-color:#212121;
 	padding:10px 0px;
 	color:#FFF;
 }
+
+.view-more{
+    width:199px;
+    height:48px;
+    margin-right:20px;
+    margin-top:30px !important;
+    border-radius:10px;
+    padding-right:20px;
+    text-decoration: none;
+    background-color:#0d6efd !important;
+    color:#fff;
+    font-weight: 700;
+    border:none;
+}
+
 
 /* =========  SUPPORT PAGE =========*/
 
