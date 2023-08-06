@@ -294,6 +294,22 @@ p.features{
     border-radius:12px 0 0 12px;
 }
 
+#card-3{
+    position: absolute;
+    right: 0;
+    height: 420px;
+    border-radius:0px 12px 12px 0px;
+}
+
+.mid__card__content2{
+    position: absolute;
+    left:3rem;
+    top:40px;
+    max-width: 410px;
+    text-align: left;
+    color:#fff;
+}
+
 .mid__card__content{
     position: absolute;
     right:10px;
@@ -303,16 +319,16 @@ p.features{
     color:#fff;
 }
 
-.mid__card__content p{
+.mid__card__content p, .mid__card__content2 p{
     margin-top:25px;
 }
 
-.mid__card__content ul{
+.mid__card__content ul, .mid__card__content2 ul{
     font-size: 13px;
     margin-top:25px;
 }
 
-.mid__card__content button{
+.mid__card__content button, .mid__card__content2 button{
     width:199px;
     height:48px;
     margin-right:20px;
@@ -326,7 +342,7 @@ p.features{
     font-size:18px;
 }
 
-.mid__card__content svg{
+.mid__card__content svg, .mid__card__content2 svg{
     position: absolute;
     top:17px;
     right:30px;
@@ -422,8 +438,15 @@ a:hover,a:focus{
 ul{
     margin: 0px; 
     padding: 0px; 
-    list-style: none;
+    padding-bottom: .5rem;
+    padding-left: 1.5rem;
+    /* list-style: none; */
 }
+
+li{
+    padding-bottom: .5rem;
+}
+
 .relative{ 
     position: relative;
 }
