@@ -332,7 +332,23 @@ p.features{
     right:30px;
 }
 
-/*    =========  SIGN IN / SIGN UP MODALS =========*/
+/* ========= FEATURES PAGE ========= */
+
+.feature{
+    width:80px;
+    height:80px;
+    margin:auto;
+    position:relative;
+  }
+  
+  .bi{
+    position:absolute;
+    top:18px;
+    left:26px;
+    font-size:28px;
+  }
+
+/* =========  SIGN IN / SIGN UP / CHAT MODALS =========*/
 
 #girl-stonks{
     max-width: 70%;
