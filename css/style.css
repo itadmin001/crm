@@ -674,13 +674,14 @@ li{
 #sign-in-email input, 
 #sign-in-password input, 
 #sign-in-username input{
-    padding-left: 1.75rem;
+    padding-left: 2rem;
+    border-radius: .5rem;
 }
 
 #sign-in-email img, 
 #sign-in-password img, 
 #sign-in-username img {
     position: absolute;
-    top: .75rem;
+    top: 1rem;
     left: .5rem;
 }
