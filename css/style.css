@@ -1,3 +1,7 @@
+body,html{
+    min-width:100%;
+}
+
 
 body p{
     font-size:15px;
@@ -288,8 +292,9 @@ p.features{
     position: relative;
 }
 
-.mid__content__card img{
-    display:flex;
+#landing__pg__cc{
+    position:absolute;
+    left:0;
     max-height: 420px;
     border-radius:12px 0 0 12px;
 }
@@ -722,4 +727,17 @@ li{
 #please_clap{
     width: 100%;
     margin-left: 0%;
+}
+
+
+@media(max-width:730px){
+    .landing__left,.landing__left h1,
+    .landing__left p{
+    text-align:center;
+    margin:auto;
+    margin-bottom:20px;
+    }
+    .navbar .container-fluid{
+        min-width:100% !important;
+    }
 }
