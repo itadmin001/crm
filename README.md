@@ -18,3 +18,6 @@ independently and now everything works as it should.  Please clap!
 
 #Jeremy
 The biggest issue I had with this was the nav and middle section title in the beginning...took me about an hour to figure out the utility class alignments. I used a combination of flex and grid to lay out my pages. Assisted with modals and content throughout and went ahead and fleshed out other pages with content and made responsive. Was able to use utility classes for the modals so did not have to use any JS aside from what I gave Matthew for holding the modal open so he could work on it without having to reload every time. I used bootstrap snippets from the components pages and from Code Pen to flesh out the other pages and styled them with CSS to match the theme of the site. For the upper section 3x3 grid I used divs and border-radius to create and then positioned the svg's. Tied in all buttons to modals and added a chat modal for the Chat With Us buttons.
+
+#Luis 
+I worked on the bottom portion of the "Landing" page. I spent more time than expected getting the page formatted correctly, and even then I reached out to Matthew and Jeremy when I hit roadblocks. I enjoyed using Bootstrap where I could -cards, font weight, padding, etc.- but I got tunnel vision relying on it and struggled with aspects that needed CSS - images/background, positioning.
