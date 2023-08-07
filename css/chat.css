@@ -37,8 +37,9 @@
     width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
+    border: 2px solid #0D6EFD;
+    border-radius: 10px;
+    background: transparent;
     resize: none;
     min-height: 200px;
   }
