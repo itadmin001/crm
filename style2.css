@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.card-image {
+   background-color: #0D6EFD;
+   border-radius: 9999px;
+   height: 128px; width: 128px;
+   display: block;
+   position: relative;
+   margin:auto;
+   
+}
+.card-image img{
+    position: absolute;
+    top: 40px;
+    right: 34px;
+}
+.card-image-2 {
+    background-color: #0D6EFD;
+    border-radius: 9999px;
+    height: 128px; width: 128px;
+    display: block;
+    position: relative;
+    margin:auto;
+}
+.card-image-2 img{
+    position: absolute;
+    top: 40px;
+    right: 37px;
+}
+.card-image-3 {
+    background-color: #0D6EFD;
+    border-radius: 9999px;
+    height: 128px; width: 128px;
+    display: block;
+    position: relative;
+    margin:auto;
+}
+.card-image-3 img{
+    position: absolute;
+    top: 42px;
+    right: 40px;
+}
+.card-image-4 {
+    background-color: #0D6EFD;
+    border-radius: 9999px;
+    height: 128px; width: 128px;
+    display: block;
+    position: relative;
+    margin:auto;
+}
+.card-image-4 img{
+    position: absolute;
+    top: 40px;
+    right: 43px;
+}
+
+.learn-btn{
+    color:#0D6EFD;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px 40px 16px 48px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: white;
+    border-radius: 8px;
+    border-color: #0D6EFD;
+}
+.div-1{
+    font-size: 14px;
+    font-weight: 400px;
+}
+.div-2{
+    font-size: 24px;
+}
+.div-3{
+    font-size: 48px;
+}
+.div-4{
+    font-size: 28px;
+}
+.div-5{
+    font-size: 18px;
+}
+.chat-btn-2{
+    font-size: 18px;
+    background-color: white;
+    color:#0D6EFD;
+    padding: 16px 40px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.chat-btn-1{
+    font-size: 18px;
+    border-radius: 8px;
+    background: #2BC744;
+    color: white;
+    padding: 16px 40px 16px 48px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.heading{
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+}
